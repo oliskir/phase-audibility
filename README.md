@@ -32,7 +32,7 @@ phase distortion step.
 When the sound clips obtained in this manner are compared aurally they sound 
 similar, if not identical, at least to my untrained ear. However, when I asked 
 a professional musician to listen to the two sound clips they were able to detect 
-a small change. 
+a very slight change. 
 
 The magnitude spectrograms of the two sound clips are shown below; they are 
 essentially identical.
