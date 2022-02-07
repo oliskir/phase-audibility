@@ -4,8 +4,8 @@ Inspired by [this discussion](http://www.silcom.com/~aludwig/Phase_audibility.ht
 I have been investigating the extent to which the human auditory system is sensitive 
 to changes in the relative phase of harmonic components of sound.
 
-An example [sound clip](original_stereo.wav) included in this repository containing 
-three piano notes is used to explore this question.
+An short [sound clip](original_stereo.wav) included in this repository which contains 
+three piano notes, is used to explore this question.
 
 The script [fft_modify_phase.py](fft_modify_phase.py) computes the Fast Fourier 
 Transform (FFT) of the sound clip, modifies the phase by applying a random 
@@ -13,6 +13,9 @@ distortion, amd finally transforms the signal back to the time domain using
 an Inverse FFT. The modified sound clip produced by these steps is audibly 
 different from the original sound clip, but the magnitude spectrograms also 
 differ substantially, as can be verified using [view_spec.py] script.
+
+![Original sound clip](figures/original_fft.png)
+![Sound clip with modified phase](figures/modified_fft.png)
 
 The more interesting question is: Is the human auditory sensitive to changes in 
 the relative phase that leave the magnitude spectrogram invariant? 
