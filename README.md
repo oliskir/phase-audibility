@@ -14,7 +14,7 @@ an Inverse FFT. The modified sound clip produced by these steps is audibly
 different from the original sound clip, but the magnitude spectrograms also 
 differ substantially, as can be verified using [view_spec.py] script.
 
-![Original sound clip](figures/original_fft.png)
+![Original sound clip](figures/original.png)
 ![Sound clip with modified phase](figures/modified_fft.png)
 
 The more interesting question is: Is the human auditory sensitive to changes in 
