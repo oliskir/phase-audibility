@@ -24,13 +24,11 @@ import matplotlib.pyplot as plt
 
 input_dir = 's19_examples/'
 output_dir = 'output/'
-
 window = 0.04
 step = 0.010
-
+freq_min = 400
 buffer = 1.0 #s
 distort_frac = 0.75 #how large a fraction of the samples should be distorted
-
 np.random.seed(1)
 
 
@@ -63,7 +61,7 @@ for counter, path in enumerate(paths):
     df['filename'].append(path)
 
     # compute magnitude spectrogram and phase angle
-    s = MagSpectrogram.from_wav(os.path.join(input_dir,path), window=window, step=step,  compute_phase=True, freq_min=400)
+    s = MagSpectrogram.from_wav(os.path.join(input_dir,path), window=window, step=step,  compute_phase=True)#, freq_min=freq_min)
 
     ##s.plot()
     ##plt.show()
