@@ -1,0 +1,26 @@
+filename,orig_filename,is_modified_1,is_modified_2,jk
+sample_00.wav,S_44.wav,0,0,Sound the same
+sample_01.wav,S_31.wav,0,1,Prominent background noise. The background noise shifts down in frequency in the second clip. Calls seem to have stayed the same.
+sample_02.wav,S_16.wav,0,0,Sound the same
+sample_03.wav,S_17.wav,1,0,Sound pretty similar, but the background noise seems slightly quieter in the second one.
+sample_04.wav,S_6.wav,0,1,Sound the same
+sample_05.wav,S_18.wav,0,0,Sound the same
+sample_06.wav,S_36.wav,0,0,Sound the same
+sample_07.wav,S_38.wav,0,0,Sound the same
+sample_08.wav,S_2.wav,0,1,Sound the same
+sample_09.wav,S_5.wav,1,0,Sound the same
+sample_10.wav,S_19.wav,0,0,Sound the same
+sample_11.wav,S_3.wav,1,0,The first call is smoother. The second call sounds ever so slightly choppy. This is a call I'm particularly familiar with though and I'm wondering if my ability to perceive the difference better here than in the others comes from that familiarity.
+sample_12.wav,S_14.wav,1,0,Sounds the same
+sample_13.wav,S_42.wav,0,0,Sounds the same
+sample_14.wav,S_9.wav,0,1,Sounds the same
+sample_15.wav,S_13.wav,0,0,Sounds the same
+sample_16.wav,S_33.wav,1,0,Sounds the same
+sample_17.wav,S_46.wav,1,0,I'm not sure what was done to it, but the first clip has been altered somehow. I'm not sure what the technical words to describe the difference would be and it's hard to describe it in words rather than illustrating it out loud but I'll try. The first clip seems softer or blunted in a way. Qualitatively speaking, there's less detail to the pulses making them sound more airy, like a human blowing a raspberry but not on anything/like when kids imitate a horse.
+sample_18.wav,S_7.wav,0,1,Sound the same
+sample_19.wav,S_30.wav,0,0,Sound the same
+sample_20.wav,S_4.wav,0,1,Sound the same
+sample_21.wav,S_40.wav,0,0,Sound the same
+sample_22.wav,S_10.wav,1,0,Sound the same
+sample_23.wav,S_37.wav,1,0,The first clip has a similar softening and smoothing of the buzz that 17 had. The pulses sound less distinct in the first clip than the second.
+sample_24.wav,S_1.wav,0,1,Sound the same
